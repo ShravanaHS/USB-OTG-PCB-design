@@ -1,11 +1,6 @@
 # USB Type-C OTG Adapter Project
 
 
-
-In this project, I have designed a USB Type-C to USB Type-A OTG (On-The-Go) adapter capable of data transfer speeds of up to 480 Mbps, compliant with the USB 2.0 standard. The schematic and PCB layout were created using [EasyEDA](https://easyeda.com), an intuitive and powerful online electronics design tool. Additionally, the custom enclosure for the adapter was modeled using [Tinkercad](https://www.tinkercad.com), a beginner-friendly 3D design and modeling platform. This project emphasizes simplicity and accessibility while delivering full OTG functionality for use with smartphones, tablets, laptops, and embedded systems.
-
-
-
 ## 1. Introduction to USB Type-C
 
 USB Type-C is a modern, future-proof interface that surpasses older USB connectors in terms of functionality, speed, and versatility. Its key advantages include:
@@ -127,7 +122,6 @@ Connect **5.1kΩ** resistor from **CC1 or CC2 to GND** to configure device as **
 | ESD Protection Diodes  | PESD5V0S1UL (Nexperia)               |
 | Optional PD Controller | STUSB4500 or FUSB302                 |
 
----
 
 ##  10. Key Design Considerations
 
@@ -140,14 +134,57 @@ Connect **5.1kΩ** resistor from **CC1 or CC2 to GND** to configure device as **
   
 
 
-## 11. Project Specification Summary
+# 2. Project 
 
-| Parameter                  | Value                                |
-|---------------------------|--------------------------------------|
-| Adapter Type              | USB Type-C Male ↔ USB-A Female OTG   |
-| USB Standard              | USB 2.0 / 3.0 / 3.1 Gen 2             |
-| Power                     | Default 5V @ 3A, PD up to 100W        |
-| Data Speed                | Up to 10 Gbps                         |
-| CC Configuration          | 5.1kΩ resistor to GND (host mode)     |
-| Enclosure                 | Custom 3D-printed (STL provided)      |
-| Protection                | ESD diodes,
+In this project, I have designed a USB Type-C to USB Type-A OTG (On-The-Go) adapter capable of data transfer speeds of up to 480 Mbps, compliant with the USB 2.0 standard. The schematic and PCB layout were created using [EasyEDA](https://easyeda.com), an intuitive and powerful online electronics design tool. Additionally, the custom enclosure for the adapter was modeled using [Tinkercad](https://www.tinkercad.com), a beginner-friendly 3D design and modeling platform. This project emphasizes simplicity and accessibility while delivering full OTG functionality for use with smartphones, tablets, laptops, and embedded systems.
+
+## 1. Circuit Diagram / Schematic
+
+The schematic was designed using [EasyEDA](https://easyeda.com). It shows the connection between the USB Type-C connector, ESD protection diodes, decoupling capacitors, pull-down resistors, and the USB Type-A output.
+
+**Insert schematic image here**
+![Schematic](images/schematic.png)
+
+---
+
+## 2. Bill of Materials (BOM) / Components Used
+
+| No. | Quantity | Designator(s) | Value               | Footprint                          | Manufacturer Part        | Manufacturer         | Supplier Part | Supplier |
+|-----|----------|----------------|----------------------|------------------------------------|---------------------------|------------------------|----------------|----------|
+| 1   | 2        | C3, C4         | 100nF               | C0805                              | CC0805KRX7R9BB104         | YAGEO (国巨)           | C49678         | LCSC     |
+| 2   | 2        | D1, D2         | KPESD5V0S1UL        | X1-DFN1006-2_L1.0-W0.6-RD          | KPESD5V0S1UL              | KUU                    | C2891661       | LCSC     |
+| 3   | 2        | R4, R5         | 5.1kΩ               | R0805                              | 0805W8F5101T5E            | UNI-ROYAL (厚声)       | C27834         | LCSC     |
+| 4   | 1        | USB1           | TYPE-C 16PIN 2MD(073) | USB-C-SMD_TYPE-C-6PIN-2MD-073     | TYPE-C 16PIN 2MD(073)     | SHOU HAN (首韩)        | C2765186       | LCSC     |
+| 5   | 1        | USB2           | USB-301WD-ARY       | USB-TH_XUNPU_USB-301WD-ARY        | USB-301WD-ARY             | XUNPU (讯普)           | C2895025       | LCSC     |
+
+---
+
+## 3. PCB Layout
+
+The PCB was designed. here i have made layer 2 as a ground plane and layer 1 is designed ensuring short traces, minimal EMI, and proper CC resistor placement for OTG functionality. The layout features USB Type-C input and USB-A output with ESD and power filtering.
+
+**Insert PCB layout image here**
+![PCB Layout](images/pcb-layout.png)
+
+---
+
+## 4. 3D View
+
+This is the 3D view of the PCB generated using EasyEDA's built-in 3D viewer.
+
+**Insert 3D PCB image here**
+![3D View](images/3d-view.png)
+
+---
+
+## 5. Enclosure Design
+
+The enclosure was designed using [Tinkercad](https://www.tinkercad.com), a browser-based 3D modeling tool. It provides a compact housing with cutouts for USB Type-C and USB-A connectors and snap-fit features for easy assembly.
+
+**Insert enclosure design render or photo here**
+![Enclosure Design](images/enclosure.png)
+
+---
+## 6. Project files
+All the essential files required for this USB Type-C OTG adapter project are available in the repository. The schematic and PCB layout were designed using EasyEDA, and the enclosure was created using Tinkercad. You can find the schematic file (schematic.json) and the PCB layout file (pcb_layout.json) in the files/ directory. For PCB manufacturing, the Gerber files are available as a .zip archive (gerber.zip). The complete list of components used in the project is provided as a CSV file (bom.csv). The 3D printable enclosure model is available as an STL file (enclosure.stl), and if you wish to modify the design, the source file is also included (enclosure.scad). Additionally, a 3D view image (3d-view.png) of the assembled board can be found in the images/ folder. All files are organized under the files/ and images/ directories within this repository for easy access.
+
