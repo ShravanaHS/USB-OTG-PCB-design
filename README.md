@@ -220,6 +220,7 @@ youtube: [ThioJoe](https://www.youtube.com/watch?v=mdwqZAkYWzQ)
 youtube: [GreatScott!](https://www.youtube.com/watch?v=vKJWwBXRPuI)
 youtube: [maxim integrated](https://www.youtube.com/watch?v=vKiXoUbFIi0)
 youtube: [TechEdKirsch](https://www.youtube.com/watch?v=f_algTLusFw)
+youtube: [Robert Feranec](https://www.youtube.com/watch?v=8RiLKnczvxs&t=3001s)
 
 
 
