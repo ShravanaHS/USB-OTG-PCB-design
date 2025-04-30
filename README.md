@@ -23,10 +23,10 @@ Alternate Modes Support – Can carry HDMI, DisplayPort, MHL, and Thunderbolt si
 
 USB OTG allows devices like smartphones to act as hosts instead of just peripherals. Examples:
 
-- 📁 Accessing files from a USB flash drive
-- ⌨️ Connecting a keyboard or mouse
-- 🎮 Plugging in game controllers
-- 🌐 Using USB Ethernet dongles
+- Accessing files from a USB flash drive
+-  Connecting a keyboard or mouse
+- Plugging in game controllers
+- Using USB Ethernet dongles
 
 
 
@@ -92,11 +92,11 @@ Connect **5.1kΩ** resistor from **CC1 or CC2 to GND** to configure device as **
 
 | Device            | OTG Support        |
 |-------------------|--------------------|
-| Android Phones    | ✅ Yes (check settings) |
-| Raspberry Pi      | ✅ Yes (USB-A)       |
-| Laptops           | ✅ Yes (Type-C ports) |
-| Smart TVs         | 🔄 Partial (file/media) |
-| Microcontrollers  | ✅ With USB host       |
+| Android Phones    |  Yes (check settings) |
+| Raspberry Pi      |  Yes (USB-A)       |
+| Laptops           |  Yes (Type-C ports) |
+| Smart TVs         |  Partial (file/media) |
+| Microcontrollers  |  With USB host       |
 
 
 
@@ -200,10 +200,8 @@ The enclosure was designed using [Tinkercad](https://www.tinkercad.com), a brows
 </div>
 
 ## 6. Project files
-All the essential files required for this USB Type-C OTG adapter project are available in the repository. The schematic and PCB layout were designed using EasyEDA, and the enclosure was created using Tinkercad. You can find the schematic file (schematic.json) and the PCB layout file (pcb_layout.json) in the files/ directory. For PCB manufacturing, the Gerber files are available as a .zip archive (gerber.zip). The complete list of components used in the project is provided as a CSV file (bom.csv). The 3D printable enclosure model is available as an STL file (enclosure.stl), and if you wish to modify the design, the source file is also included (enclosure.scad). Additionally, a 3D view image (3d-view.png) of the assembled board can be found in the images/ folder. All files are organized under the files/ and images/ directories within this repository for easy access.
+All the essential files required for this USB Type-C OTG adapter project are available in the repository. The schematic and PCB layout were designed using EasyEDA, and the enclosure was created using Tinkercad. You can find the schematic file and the PCB layout file  in the files/ directory. For PCB manufacturing, the Gerber files are available as a .zip archive (gerber.zip). The complete list of components used in the project is provided as a CSV file (bom.csv). The 3D printable enclosure model is available as an STL file (enclosure.stl).
 
-
-## 6. Project Files & Downloads
 
 This section includes all the essential files required to manufacture, assemble, and print the USB Type-C OTG Adapter.
 
@@ -211,9 +209,17 @@ This section includes all the essential files required to manufacture, assemble,
 
 | File Type                | Description                                      | Download Link |
 |--------------------------|--------------------------------------------------|---------------|
-| **Gerber Files (.zip)**  | For PCB manufacturing                            | [Download](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/gerber%20otgc.zip) |
-| **Bill of Materials (.csv)** | Complete list of components               | [Download]([files/bom.csv](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/bomotg.xlsx)) |
-| **STL File (.stl)**      | 3D printable enclosure model                     | [Download](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.stl) |
-| **Tinkercad ** | For modifying enclosure design                     | [Download](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.step) |
+| **Gerber Files (.zip)**  | For PCB manufacturing                            | [gerber](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/gerber%20otgc.zip) |
+| **Bill of Materials (.csv)** | Complete list of components               | [BOM]([files/bom.csv](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/bomotg.xlsx)) |
+| **STL File (.stl)**      | 3D printable enclosure model                     | [3D Model](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.stl) |
+| **Tinkercad ** | For modifying enclosure design                     | [3d file](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.step) |
+
+
+#References
+youtube: [ThioJoe](https://www.youtube.com/watch?v=mdwqZAkYWzQ)
+youtube: [GreatScott!](https://www.youtube.com/watch?v=vKJWwBXRPuI)
+youtube: [maxim integrated](https://www.youtube.com/watch?v=vKiXoUbFIi0)
+youtube: [TechEdKirsch](https://www.youtube.com/watch?v=f_algTLusFw)
+
 
 
