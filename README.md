@@ -214,13 +214,15 @@ This section includes all the essential files required to manufacture, assemble,
 | **STL File (.stl)**      | 3D printable enclosure model                     | [3D Model](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.stl) |
 | **Tinkercad ** | For modifying enclosure design                     | [3d file](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.step) |
 
+# Reference
 
-#References
-youtube: [ThioJoe](https://www.youtube.com/watch?v=mdwqZAkYWzQ)
-youtube: [GreatScott!](https://www.youtube.com/watch?v=vKJWwBXRPuI)
-youtube: [maxim integrated](https://www.youtube.com/watch?v=vKiXoUbFIi0)
-youtube: [TechEdKirsch](https://www.youtube.com/watch?v=f_algTLusFw)
-youtube: [Robert Feranec](https://www.youtube.com/watch?v=8RiLKnczvxs&t=3001s)
+| YouTube Creator       | Link                                                                 |
+|-----------------------|----------------------------------------------------------------------|
+| ThioJoe               | [ThioJoe](https://www.youtube.com/watch?v=mdwqZAkYWzQ)               |
+| GreatScott!           | [GreatScott!](https://www.youtube.com/watch?v=vKJWwBXRPuI)           |
+| Maxim Integrated      | [Maxim Integrated](https://www.youtube.com/watch?v=vKiXoUbFIi0)      |
+| TechEdKirsch          | [TechEdKirsch](https://www.youtube.com/watch?v=f_algTLusFw)          |
+| Robert Feranec        | [Robert Feranec](https://www.youtube.com/watch?v=8RiLKnczvxs&t=3001s)|
 
 
 
