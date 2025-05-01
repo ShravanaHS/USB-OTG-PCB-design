@@ -212,7 +212,7 @@ This section includes all the essential files required to manufacture, assemble,
 | **Gerber Files (.zip)**  | For PCB manufacturing                            | [gerber](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/gerber%20otgc.zip) |
 | **Bill of Materials (.csv)** | Complete list of components               | [BOM]([files/bom.csv](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/bomotg.xlsx)) |
 | **STL File (.stl)**      | 3D printable enclosure model                     | [3D Model](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.stl) |
-| **Tinkercad ** | For modifying enclosure design                     | [3d file](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.step) |
+| **Tinkercad**  | For modifying enclosure design                     | [3d file](https://github.com/ShravanaHS/USB-OTG-PCB-design/blob/main/files/otg.step) |
 
 # Reference
 
